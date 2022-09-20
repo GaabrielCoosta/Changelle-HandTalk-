@@ -18,7 +18,7 @@ while True:
     print(f'\033[1:33mIDIOMA IDENTIFICADO >>\033[m {idioma}')
     print('=-='*20)
 
-    p = str(input('Deseja continuar identificando idiomas: ')).strip().upper()
+    p = str(input('Deseja continuar identificando idiomas? [S|N]: ')).strip().upper()
     while p not in 'NnSs':
         print('\033[1:31mErro de digitação!\033[m')
         p = str(input('Deseja continuar identificando idiomas: ')).strip().upper()

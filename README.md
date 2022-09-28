@@ -1,2 +1,2 @@
 # Desafios-HandTalk
- Desafio proposto pela equipe!
+ Challenges, created by the data science team.

@@ -1,8 +1,7 @@
-# Challenge, Hand Talk 👋,
+# Challenge, Hand Talk 👋
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/GaabrielCoosta/Changelle_HandTalk/blob/main/LICENSE)
 ![NPM](https://img.shields.io/static/v1?label=Python&message=3.10&color=<COLOR>&logo=python)
-
 
  
 
@@ -44,14 +43,14 @@ Combinations.py
 ```
 ## Requirements
 
-- Support at least 3 languages ​​(English, Portuguese and German, for example)
-- Use Python 3+ (and COFFEE ☕️) to solve the problem
-- Use *git* and *github* to version your code. Try to send (commits) all stages of evolution of your implementation.
-- Create a readme.md to explain how to use your project.
+- *Support at least 3 languages ​​(English, Portuguese and German, for example)*
+- *Use Python 3+ (and COFFEE ☕️) to solve the problem*
+- *Use *git* and *github* to version your code. Try to send (commits) all stages of evolution of your implementation.*
+- *Create a readme.md to explain how to use your project.*
 
 ## Support Documentation
 
-- Lists several example sentences (you can use other databases): [http://www.manythings.org/anki/](http://www.manythings.org/anki/)
+- *Lists several example sentences (you can use other databases): [http://www.manythings.org/anki/](http://www.manythings.org/anki/)*
 
 #
 ## Challenge: **Combinations**
@@ -63,7 +62,7 @@ Combinations.py
 
 - Input: `eu gosto de café`
 
-Output:
+- **Output**:
 
 ```bash
 [
@@ -80,14 +79,14 @@ Output:
 ```
 ## Requirements
 
-- Use Python 3+ (and COFFEE ☕️) to solve the problem
-- Use git and github to version your code. Try to send (commits) all stages of evolution of your implementation.
-- Create a readme.md to explain how to use your project.
+- *Use Python 3+ (and COFFEE ☕️) to solve the problem*
+- *Use git and github to version your code. Try to send (commits) all stages of evolution of your implementation.*
+- *Create a readme.md to explain how to use your project.*
 
-# Support Documentation
+## Support Documentation
 
-- Use the official Python documentation
-    [https://docs.python.org/3/](https://docs.python.org/3/)
+- *Use the official Python documentation
+    [https://docs.python.org/3/](https://docs.python.org/3/)*
 
 
 # 

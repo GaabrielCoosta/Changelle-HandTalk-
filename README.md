@@ -6,11 +6,11 @@
 
  
 
- ## Project
+ ## **Project**
 
 Challenge Hand Talk,
 
-These are questions prepared by the data science team at **Hand Talk**, aimed at solving computational problems.
+*These are questions prepared by the data science team at **Hand Talk**, aimed at solving computational problems.*
 
 
 ## Running the project
@@ -35,7 +35,7 @@ Combinations.py
 ## Challenge:  **Language Identifier**
 - ### Description:
 
-    Develop a strategy and build a system that is able to answer which language a given sentence belongs to.
+    *Develop a strategy and build a system that is able to answer which language a given sentence belongs to.*
 
 ### Example:
 ```bash              
@@ -58,7 +58,7 @@ Combinations.py
 ## Challenge: **Combinations**
 - ### Description:
 
-    Given any sentence, generate all possible combinations of breaking that sentence, fragmenting it until it can no longer be broken.
+    *Given any sentence, generate all possible combinations of breaking that sentence, fragmenting it until it can no longer be broken.*
 
 ### Example:
 

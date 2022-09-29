@@ -8,9 +8,8 @@
 
  ## **Project**
 
-Challenge Hand Talk,
-
-*These are questions prepared by the data science team at **Hand Talk**, aimed at solving computational problems.*
+*Challenge Hand Talk,
+these are questions prepared by the data science team at **Hand Talk**, aimed at solving computational problems.*
 
 
 ## Running the project

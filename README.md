@@ -1,6 +1,7 @@
-# Challenge, HandTalk 👋
-<div sttyle="display: inline_block"><br/>
-    <img align="center" alt="html5" src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" />
+# Challenge, HandTalk 👋,
+
+![NPM](https://img.shields.io/static/v1?label=License&message=MIT&color=<COLOR>?style=flat-square)
+![NPM](https://img.shields.io/static/v1?label=Python&message=3.10&color=<COLOR>&logo=python)
 
 
  Challenges, created by the data science team.

@@ -26,30 +26,45 @@ import time
 from langdetect import detect
 from Uteis import cabecalho
 
-cabecalho('-- IDENTIFICADOR DE IDIOMAS --')
-# Função disponível em __init__.py, retorna a formatação do cabeçalho
+cabecalho('-- LANGUAGE IDENTIFIER --')
+# Function available in __init__.py, returns header formatting
+
 
 while True:
-# Criei o 'while True', para que o usuário pudesse obter mais de um resultado
-# Utilizei da função 'detect()' para obter o resultado esperado
-# Utilizei a função 'cj.Progress.prog()' para deixar o código mais legal :)
+# I created the 'while True', so the user could get more than one result
+# I used the 'detect()' function to get the expected result
+# I used the 'cj.Progress.prog()' function to make the code nicer :)
 
-    texto = str(input('Digite uma frase: '))
-    idioma = detect(texto).upper()
-    interagindo = texto.split()
-
-    for i in cj.Progress.prog(interagindo):
-        print(f"Analisando: {i}")
+    text = str(input('Type a sentence: '))
+    leng = detect(text).upper()
+    iterating = text.split()
+    
+    for i in cj.Progress.prog(iterating):
+        print(
+            f"Analyzing: {i}"
+        )
         time.sleep(2)
 
-    print(f'\033[1:33mIDIOMA IDENTIFICADO >>\033[m {idioma}')
+    print(
+        f'\033[1:33mLANGUAGE IDENTIFIED >>\033[m {leng}'
+    )
     print('=-='*20)
-
-    p = str(input('Deseja continuar identificando idiomas? [S|N]: ')).strip().upper()
+    p = str(input(
+        'Do you want to continue identifying languages? [Y|N]: ')
+           ).strip().upper()
+    
+    
     while p not in 'NnSs':
-        print('\033[1:31mErro de digitação!\033[m')
-        p = str(input('Deseja continuar identificando idiomas: ')).strip().upper()
+        print(
+            '\033[1:31m Writing error! \033[m'
+        )
+        p = str(input(
+            'Do you want to continue identifying languages? [Y|N]: ')
+               ).strip().upper()
 
+        
     if p == 'N':
-        print('\033[1:34mObrigado, volte sempre!\033[m')
+        print(
+            '\033[1:34m Thank you! \033[m'
+        )
         break

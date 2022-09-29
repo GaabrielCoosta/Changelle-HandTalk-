@@ -27,8 +27,12 @@ from langdetect import detect
 from Uteis import cabecalho
 
 cabecalho('-- IDENTIFICADOR DE IDIOMAS --')
+# Função disponível em __init__.py, retorna a formatação do cabeçalho
 
 while True:
+# Criei o 'while True', para que o usuário pudesse obter mais de um resultado
+# Utilizei da função 'detect()' para obter o resultado esperado
+# Utilizei a função 'cj.Progress.prog()' para deixar o código mais legal :)
 
     texto = str(input('Digite uma frase: '))
     idioma = detect(texto).upper()

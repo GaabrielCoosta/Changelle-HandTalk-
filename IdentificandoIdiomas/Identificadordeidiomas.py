@@ -24,7 +24,7 @@ SOFTWARE.
 import cereja as cj
 import time
 from langdetect import detect
-from Uteis import cabecalho
+from funcions import cabecalho
 
 cabecalho('-- LANGUAGE IDENTIFIER --')
 # Function available in __init__.py, returns header formatting
